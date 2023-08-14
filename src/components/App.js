@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div className='parent'>
       <h1>Parent Component</h1>
-      <Child set={SetselectedOption} key='1'/>
-      <Child set={SetselectedOption} key='2'/>
+      <Child set={SetselectedOption} k={1}/>
+      <Child set={SetselectedOption} k={2}/>
       <div>Selected Option :{selectedOption}</div>
     </div>
   )
